@@ -223,8 +223,10 @@ public class BaseClass {
 
 	}
 
-	
-	
+	public void clear(WebElement element)
+	{
+		element.click();
+	}
 	
 	
 	
